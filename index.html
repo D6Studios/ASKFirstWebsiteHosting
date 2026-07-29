@@ -28,17 +28,6 @@
       </div>
     </div>
     <script>
-      const mediaQuery = window.matchMedia("(orientation: portrait)");
-      const orientationChecker = document.getElementById("OrientationChecker");
-      function handleOrientationChange(e) {
-        if (e.matches) {
-          orientationChecker.style.display = "flex";
-        } else {
-          orientationChecker.style.display = "none";
-        }
-      }
-      mediaQuery.addEventListener("change", handleOrientationChange);
-      handleOrientationChange(mediaQuery);
       var canvas = document.querySelector("#unity-canvas");
 
       // Shows a temporary message banner/ribbon for a few seconds, or
@@ -70,12 +59,12 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/TempBuild.loader.js";
+      var loaderUrl = buildUrl + "/ASKFirstWebsiteTest.loader.js";
       var config = {
         arguments: [],
-        dataUrl: buildUrl + "/TempBuild.data.unityweb",
-        frameworkUrl: buildUrl + "/TempBuild.framework.js.unityweb",
-        codeUrl: buildUrl + "/TempBuild.wasm.unityweb",
+        dataUrl: buildUrl + "/ASKFirstWebsiteTest.data.unityweb",
+        frameworkUrl: buildUrl + "/ASKFirstWebsiteTest.framework.js.unityweb",
+        codeUrl: buildUrl + "/ASKFirstWebsiteTest.wasm.unityweb",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "ASKFirst v2-",
