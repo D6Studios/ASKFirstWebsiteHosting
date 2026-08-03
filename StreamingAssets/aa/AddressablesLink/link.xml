@@ -15,7 +15,9 @@
     <type fullname="PlayerDialogue" preserve="all" />
     <type fullname="PlayerInteraction" preserve="all" />
     <type fullname="SoundManager" preserve="all" />
+    <type fullname="Sweat" preserve="all" />
     <type fullname="Transition" preserve="all" />
+    <type fullname="VideoUpdater" preserve="all" />
   </assembly>
   <assembly fullname="Unity.Addressables, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" preserve="all">
     <type fullname="UnityEngine.AddressableAssets.Addressables" preserve="all" />
@@ -29,6 +31,8 @@
     <type fullname="Unity.Cinemachine.CinemachineCamera" preserve="all" />
     <type fullname="Unity.Cinemachine.CinemachineFollow" preserve="all" />
     <type fullname="Unity.Cinemachine.CinemachineRotationComposer" preserve="all" />
+    <type fullname="Unity.Cinemachine.CinemachineSplineDolly" preserve="all" />
+    <type fullname="Unity.Cinemachine.CinemachineSplineSmoother" preserve="all" />
     <type fullname="Unity.Cinemachine.CinemachineThirdPersonFollow" preserve="all" />
     <type fullname="Unity.Cinemachine.NoiseSettings" preserve="all" />
     <type fullname="Unity.Cinemachine.CameraTarget" preserve="nothing" serialized="true" />
@@ -45,6 +49,10 @@
     <type fullname="Unity.Cinemachine.ScreenComposerSettings/DeadZoneSettings" preserve="nothing" serialized="true" />
     <type fullname="Unity.Cinemachine.ScreenComposerSettings/HardLimitSettings" preserve="nothing" serialized="true" />
     <type fullname="Unity.Cinemachine.TargetTracking.TrackerSettings" preserve="nothing" serialized="true" />
+    <type fullname="Unity.Cinemachine.CinemachineSplineDolly/DampingSettings" preserve="nothing" serialized="true" />
+    <type fullname="Unity.Cinemachine.SplineAutoDolly" preserve="nothing" serialized="true" />
+    <type fullname="Unity.Cinemachine.SplineAutoDolly/FixedSpeed" preserve="nothing" serialized="true" />
+    <type fullname="Unity.Cinemachine.SplineSettings" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="Unity.InputSystem, Version=1.19.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.InputSystem.InputActionAsset" preserve="all" />
@@ -72,6 +80,14 @@
     <type fullname="UnityEngine.ResourceManagement.ResourceProviders.InstanceProvider" preserve="all" />
     <type fullname="UnityEngine.ResourceManagement.ResourceProviders.SceneProvider" preserve="all" />
   </assembly>
+  <assembly fullname="Unity.Splines, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.Splines.SplineContainer" preserve="all" />
+    <type fullname="UnityEngine.Splines.BezierKnot" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Splines.KnotLinkCollection" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Splines.Spline" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Splines.Spline/MetaData" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Splines.SplineDataDictionary`1" preserve="nothing" serialized="true" />
+  </assembly>
   <assembly fullname="Unity.StarterAssets, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="BasicRigidBodyPush" preserve="all" />
     <type fullname="MobileDisableAutoSwitchControls" preserve="all" />
@@ -89,10 +105,10 @@
     <type fullname="TMPro.LigatureSubstitutionRecord" preserve="nothing" serialized="true" />
     <type fullname="TMPro.MarkPositionAdjustment" preserve="nothing" serialized="true" />
     <type fullname="TMPro.MarkToBaseAdjustmentRecord" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.TMP_Character" preserve="nothing" serialized="true" />
     <type fullname="TMPro.TMP_FontFeatureTable" preserve="nothing" serialized="true" />
     <type fullname="TMPro.TMP_FontWeightPair" preserve="nothing" serialized="true" />
     <type fullname="TMPro.VertexGradient" preserve="nothing" serialized="true" />
-    <type fullname="TMPro.TMP_Character" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="UnityEditor.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEditor.Audio.AudioMixerSnapshotController" preserve="all" />
@@ -140,6 +156,10 @@
     <type fullname="UnityEngine.Vector2" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.RenderingLayerMask" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.RectOffset" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="UnityEngine.ParticleSystemModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.ParticleSystem" preserve="all" />
+    <type fullname="UnityEngine.ParticleSystemRenderer" preserve="all" />
   </assembly>
   <assembly fullname="UnityEngine.PhysicsModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.BoxCollider" preserve="all" />
@@ -199,6 +219,11 @@
   <assembly fullname="UnityEngine.VideoModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.Video.VideoClip" preserve="all" />
     <type fullname="UnityEngine.Video.VideoPlayer" preserve="all" />
+  </assembly>
+  <assembly fullname="Unity.Mathematics">
+    <type fullname="Unity.Mathematics.float3" preserve="nothing" serialized="true" />
+    <type fullname="Unity.Mathematics.float4" preserve="nothing" serialized="true" />
+    <type fullname="Unity.Mathematics.quaternion" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="UnityEngine.TextCoreFontEngineModule">
     <type fullname="UnityEngine.TextCore.FaceInfo" preserve="nothing" serialized="true" />
