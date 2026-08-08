@@ -2,6 +2,8 @@
   <assembly fullname="Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="EndScreen" preserve="all" />
     <type fullname="EndScreenCard" preserve="all" />
+    <type fullname="FacialExpressions" preserve="all" />
+    <type fullname="FormSGRedirect" preserve="all" />
     <type fullname="GameManager" preserve="all" />
     <type fullname="LevelSelect" preserve="all" />
     <type fullname="MobileControls" preserve="all" />
@@ -14,6 +16,7 @@
     <type fullname="Outline" preserve="all" />
     <type fullname="PlayerDialogue" preserve="all" />
     <type fullname="PlayerInteraction" preserve="all" />
+    <type fullname="PlayerSensitivity" preserve="all" />
     <type fullname="SoundManager" preserve="all" />
     <type fullname="Sweat" preserve="all" />
     <type fullname="Transition" preserve="all" />
