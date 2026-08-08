@@ -198,8 +198,6 @@
     <type fullname="UnityEngine.UIElements.ThemeStyleSheet" preserve="all" />
     <type fullname="UnityEngine.UIElements.UIDocument" preserve="all" />
     <type fullname="UnityEngine.UIElements.VisualTreeAsset" preserve="all" />
-    <type fullname="UnityEngine.UIElements.Button/UxmlFactory" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.UIElements.Button/UxmlSerializedData" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.UIElements.DynamicAtlasSettings" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.UIElements.Specificity" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.UIElements.StyleComplexSelector" preserve="nothing" serialized="true" />
