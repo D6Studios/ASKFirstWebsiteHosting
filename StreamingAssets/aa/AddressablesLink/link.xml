@@ -5,6 +5,7 @@
     <type fullname="FacialExpressions" preserve="all" />
     <type fullname="FormSGRedirect" preserve="all" />
     <type fullname="GameManager" preserve="all" />
+    <type fullname="LevelObjectives" preserve="all" />
     <type fullname="LevelSelect" preserve="all" />
     <type fullname="MobileControls" preserve="all" />
     <type fullname="MoodSlider" preserve="all" />
@@ -19,7 +20,10 @@
     <type fullname="PlayerSensitivity" preserve="all" />
     <type fullname="SoundManager" preserve="all" />
     <type fullname="Sweat" preserve="all" />
+    <type fullname="ToteBag" preserve="all" />
     <type fullname="Transition" preserve="all" />
+    <type fullname="TutorialManager" preserve="all" />
+    <type fullname="TutorialPopup" preserve="all" />
     <type fullname="VideoUpdater" preserve="all" />
   </assembly>
   <assembly fullname="Unity.Addressables, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" preserve="all">
