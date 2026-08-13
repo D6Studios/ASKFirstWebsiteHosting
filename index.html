@@ -38,7 +38,7 @@
         }
       }
       mediaQuery.addEventListener("change", handleOrientationChange);
-
+      handleOrientationChange(mediaQuery);
       var canvas = document.querySelector("#unity-canvas");
 
       // Shows a temporary message banner/ribbon for a few seconds, or
