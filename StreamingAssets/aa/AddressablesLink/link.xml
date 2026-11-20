@@ -1,10 +1,13 @@
 <linker>
   <assembly fullname="Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="AmbientNPC" preserve="all" />
+    <type fullname="AskReminderPopup" preserve="all" />
     <type fullname="EndScreen" preserve="all" />
     <type fullname="EndScreenCard" preserve="all" />
     <type fullname="FacialExpressions" preserve="all" />
     <type fullname="FormSGRedirect" preserve="all" />
     <type fullname="GameManager" preserve="all" />
+    <type fullname="LevelIntro" preserve="all" />
     <type fullname="LevelObjectives" preserve="all" />
     <type fullname="LevelSelect" preserve="all" />
     <type fullname="MobileControls" preserve="all" />
@@ -18,6 +21,8 @@
     <type fullname="PlayerDialogue" preserve="all" />
     <type fullname="PlayerInteraction" preserve="all" />
     <type fullname="PlayerSensitivity" preserve="all" />
+    <type fullname="SafeDistanceIndicator" preserve="all" />
+    <type fullname="SafeDistanceWarningUI" preserve="all" />
     <type fullname="SoundManager" preserve="all" />
     <type fullname="Sweat" preserve="all" />
     <type fullname="ToteBag" preserve="all" />
@@ -25,6 +30,7 @@
     <type fullname="TutorialManager" preserve="all" />
     <type fullname="TutorialPopup" preserve="all" />
     <type fullname="VideoUpdater" preserve="all" />
+    <type fullname="AmbientNPC/Approach" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="Unity.Addressables, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" preserve="all">
     <type fullname="UnityEngine.AddressableAssets.Addressables" preserve="all" />
@@ -190,6 +196,7 @@
     <type fullname="UnityEngine.GameObject" preserve="all" />
     <type fullname="UnityEngine.Light" preserve="all" />
     <type fullname="UnityEngine.LightmapSettings" preserve="all" />
+    <type fullname="UnityEngine.LineRenderer" preserve="all" />
     <type fullname="UnityEngine.Material" preserve="all" />
     <type fullname="UnityEngine.Mesh" preserve="all" />
     <type fullname="UnityEngine.MeshFilter" preserve="all" />
@@ -266,6 +273,7 @@
   </assembly>
   <assembly fullname="UnityEngine.UIModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.Canvas" preserve="all" />
+    <type fullname="UnityEngine.CanvasGroup" preserve="all" />
     <type fullname="UnityEngine.CanvasRenderer" preserve="all" />
   </assembly>
   <assembly fullname="UnityEngine.VideoModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
