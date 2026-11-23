@@ -2,6 +2,7 @@
   <assembly fullname="Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="AmbientNPC" preserve="all" />
     <type fullname="AskReminderPopup" preserve="all" />
+    <type fullname="Crosshair" preserve="all" />
     <type fullname="EndScreen" preserve="all" />
     <type fullname="EndScreenCard" preserve="all" />
     <type fullname="FacialExpressions" preserve="all" />
